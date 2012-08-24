@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>Brony Fan - Friendship is Magic!</title>
-	<link rel ="stylesheet" href="CSS/main.css">
+	<link rel ="stylesheet" href="css/main.css">
 	<link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
 	
 <body>
@@ -66,8 +66,79 @@
 			</ul>
 		</div>
 	</div>
+	
+	
 	<div id="bottomContent">
+		<div id="memberPlans">
+			<h2>Membership Plans</h2>
+			<table summary="Membership prices">
+				<caption>Membership Information and Prices</caption>
+				<tr>
+					<th>Membership</th>
+					<th>Prices</th>
+				</tr>
+				<tr>
+					<td>Free</td>
+					<td>FREE</td>
+				</tr>
+				<tr>
+					<td>Basic</td>
+					<td>12.99/month</td>
+				</tr>
+				<tr>
+					<td>Premium</td>
+					<td>24.99/month</td>
+				</tr>
+				<tr>
+					<td>Gold</td>
+					<td>49.99/month</td>
+				</tr>
+			</table>
+			<br />
+			<h2>Membership Perks</h2>
+			<ul>
+				<li>Get all the lastest pony news here first!</li>
+				<li>Access to our exclusive photo galleries.</li>
+				<li>VIP passes to Bronycon with Gold membership</li>
+				<li>Pony plush of your choice with Premium membership</li>
+				<li>150 brony stickers with Basic membership</li>
+			</ul>
+		</div>
+		<div id="memberForm">
+			<h2>Sign Up!</h2>
+			<form method="get" action="index.html">
+				<div>
+					<label for="name">Name</label>
+					<input type="text" name="name" />
+				</div>
+				<div>
+					<label for="email">Email</label>
+					<input type="text" name="email" />
+				</div>
+				<div>
+					<label for="website">Website</label>
+					<input type="text" name="website" />
+				</div>
+				<div>
+					<label for="memberShipPlan">Membership Plans</label>
+					<select name="memberShipPlan">
+						<option value="">Select</option>
+						<option value="free">FREE</option>
+						<option value="basic">Basic</option>
+						<option value="premium">Premium</option>
+						<option value="gold">Gold</option>
+					</select>
+				</div>
+				<div>
+					<label for="message">Message</label>
+					<textarea row="7" cols="20"></textarea>
+				</div>
+				
+				<input type="submit" class="pink" name="submit" value="Submit" />
+			</form>
+		</div>
 	</div>
+
 	<footer id="footer">
 		<p><a href="KeenaNicole.com">KeenaNicole</a>&nbsp;&copy;</p>
 	</footer>

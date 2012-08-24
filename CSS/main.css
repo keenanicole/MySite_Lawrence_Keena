@@ -179,7 +179,7 @@ nav {
 
 #extraInfo {
 	margin-top: 20px;
-	height: 250px;
+	height: 270px;
 	width: 100%; /* 960px */
 }
 
@@ -220,9 +220,9 @@ strong {
 	margin: 0px;
 	padding: 0px;
 	list-style: none;
-	width: 45.454545454545%; /* 200px */
-	height: 80px;
-	padding: 5px;
+	width: 39.77272727272727%; /* 175px */
+	height: 110px;
+	padding: 0.5%;
 	float: left;
 }
 
@@ -237,6 +237,10 @@ strong {
 	background: #555555;
 	padding: 0px;
 	margin: 0px;
+}
+
+#bottomContent h2 {
+	color: #FFFFFF;
 }
 
 footer {
@@ -259,6 +263,85 @@ footer {
 	-moz-column-count:3; /* Firefox */
 	-webkit-column-count:3; /* Safari and Chrome */
 	column-count:3;
+}
+
+table {
+	border-collapse: collapse;
+	border: 1px solid #000;
+	width: 80%;
+	margin: 20px auto;
+	color: #FFFFFF;
+}
+
+table caption {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+td {
+	border: 1px solid #000;
+	padding: 0.3em;
+}
+
+th {
+	text-align: left;
+	background-color: #999;
+	color: #ffff;
+	padding: 0.3em;
+}
+
+#memberPlans {
+	float: left;
+	width: 48.958333333333%;
+	height: 480px;
+	padding: 20px  0px 0px 1.041666666667%;
+}
+
+#memberPlans ul li {
+	color: #FFFFFF;
+	margin-top: 10px;
+}
+
+#memberForm {
+	float: right;
+	width: 48.958333333333%;
+	height: 480px;
+	padding: 20px  1.041666666667% 0px 0px;
+}
+
+form label {
+	display: inline-block;
+	width: 31.23%;
+	color: #FFFFFF;
+	vertical-align: top;
+}
+
+form div {
+	margin-top: 20px;
+}
+
+form input {
+	width: 65%;
+}
+
+form select {
+	width: 66%;
+}
+
+form textarea {
+	width: 66%;
+	height: 100px;
+}
+
+form input[type=submit] {
+	float: right;
+	width: 15.625%;
+	height: 30px;
+	margin: 20px 2% 0px 0px;
+}
+
+form input:focus, form select:focus, form textarea:focus {
+	background-color: #CCCCCC;
 }
 
 /* Tablet Portrait to Standard 960 Browser */
@@ -291,4 +374,7 @@ footer {
 	#action { height: 500px; }
 	#gallery { clear: both; float: left; width: 100%; margin-top: 50px; margin-left: 2%; }
 	#becomeBrony { width: 100%; }
+	#memberForm { clear: both; width: 93%; padding-left: 2%; float: left; }
+	#memberPlans { width: 93%; }
+	#bottomContent { height: 1000px; }
 }
